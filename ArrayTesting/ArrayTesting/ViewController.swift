@@ -27,7 +27,7 @@ class ViewController: UIViewController {
 
     
     @IBAction func selected(_ sender: Any) {
-        print(nombrePaisSelected)
+       lblPais.text = "Pais: \(nombrePaisSelected)"
         
     }
     
